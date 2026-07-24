@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carlos del Río — Sanación chamánica, música y autoconocimiento</title>
+<meta name="description" content="Veinte años de sanación integrando tarot, musicoterapia y medicina indígena. El curso El Camino del Chamán, su música, el podcast Dos Espíritus, el libro Los Rostros del Infinito y sesiones online.">
+<link rel="canonical" href="https://carlosdelriohealer.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Carlos del Río — Sanación chamánica">
+<meta property="og:description" content="Un viaje de sanación y autoconocimiento donde se encuentran el arte, la música y las tradiciones ancestrales.">
+<meta property="og:image" content="/assets/carlos-del-rio.webp">
+<meta property="og:locale" content="es_CL">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body { margin:0; background:#F2E9D8; color:#33241A; font-family:'Spectral',Georgia,serif; -webkit-font-smoothing:antialiased; }
+  a { color:#A8501F; text-decoration:none; transition:color .25s ease; }
+  a:hover { color:#C4632B; }
+  ::selection { background:rgba(210,115,58,.28); color:#2A1B10; }
+  h1,h2,h3 { text-wrap:balance; }
+  p { text-wrap:pretty; }
+  @keyframes emberPulse { 0%,100%{opacity:.45;transform:translateX(-50%) scale(1)} 50%{opacity:.75;transform:translateX(-50%) scale(1.1)} }
+  @keyframes riseIn { from{opacity:0;transform:translateY(24px)} to{opacity:1;transform:translateY(0)} }
+  @media (prefers-reduced-motion: reduce) { *{animation:none !important} }
+  .eyebrow { font-family:'Marcellus',serif; font-size:13px; letter-spacing:.4em; text-transform:uppercase; color:#A47B2E; margin:0; }
+  .h2 { font-family:'Marcellus',serif; font-weight:400; font-size:clamp(32px,4.4vw,52px); line-height:1.07; color:#2A1B10; margin:0; }
+  .body { font-size:17px; line-height:1.8; color:#5C4A38; font-weight:300; }
+  .cta { display:inline-flex; align-items:center; justify-content:center; gap:12px; font-family:'Marcellus',serif; font-size:16px; letter-spacing:.08em; text-transform:uppercase; color:#FBF3E6; background:linear-gradient(180deg,#E7A768,#C4632B); padding:17px 38px; border-radius:2px; box-shadow:0 16px 40px -14px rgba(196,99,43,.7); border:none; cursor:pointer; }
+  .cta-spotify { background:linear-gradient(180deg,#1FBE56,#1AA34A); box-shadow:0 16px 40px -16px rgba(29,185,84,.6); }
+  .grain { position:fixed; inset:0; pointer-events:none; z-index:60; mix-blend-mode:multiply; opacity:.26; background-image:url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22140%22 height=%22140%22><filter id=%22n%22><feTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%222%22 stitchTiles=%22stitch%22/></filter><rect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22/></svg>'); }
+  .album { display:flex; flex-direction:column; gap:16px; }
+  .album-art { aspect-ratio:1/1; overflow:hidden; border:1px solid rgba(164,123,46,.4); border-radius:3px; background:#EADFCA; box-shadow:0 22px 46px -30px rgba(74,48,22,.65); transition:transform .4s ease, box-shadow .4s ease; }
+  .album-art img { width:100%; height:100%; object-fit:cover; display:block; }
+  .album:hover .album-art { transform:translateY(-5px); box-shadow:0 32px 60px -28px rgba(74,48,22,.72); }
+  .album-t { font-family:'Marcellus',serif; font-weight:400; font-size:22px; line-height:1.22; color:#2A1B10; margin:0; }
+  .album-meta { font-size:14.5px; line-height:1.5; color:#6E5B45; font-weight:300; font-style:italic; margin:5px 0 0; }
+  .album-l { display:flex; align-items:center; gap:9px; font-family:'Marcellus SC',serif; font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:#1AA34A; margin:auto 0 0; }
+  @media (max-width:860px) {
+    .two-col { grid-template-columns:1fr !important; }
+    .albums { grid-template-columns:repeat(2,1fr) !important; }
+    .navlinks { display:none !important; }
+  }
+</style>
+</head>
+<body>
+<div style="position:relative; overflow:hidden; background:#F2E9D8;">
+  <div class="grain"></div>
+
+  <!-- NAV -->
+  <nav style="position:fixed; top:0; left:0; right:0; z-index:50; display:flex; align-items:center; justify-content:space-between; gap:24px; padding:18px 6vw; backdrop-filter:blur(10px); background:linear-gradient(180deg, rgba(242,233,216,.92), rgba(242,233,216,.4)); border-bottom:1px solid rgba(51,36,26,.08);">
+    <a href="#top" style="font-family:'Marcellus SC',serif; font-size:18px; letter-spacing:.14em; color:#33241A; text-transform:uppercase;">Carlos del Río</a>
+    <div class="navlinks" style="display:flex; align-items:center; gap:30px;">
+      <a href="#musica" style="font-family:'Marcellus',serif; font-size:14px; letter-spacing:.1em; color:#6E5B45; text-transform:uppercase;">Música</a>
+      <a href="#curso" style="font-family:'Marcellus',serif; font-size:14px; letter-spacing:.1em; color:#6E5B45; text-transform:uppercase;">El Curso</a>
+      <a href="#podcast" style="font-family:'Marcellus',serif; font-size:14px; letter-spacing:.1em; color:#6E5B45; text-transform:uppercase;">Podcast</a>
+      <a href="#libro" style="font-family:'Marcellus',serif; font-size:14px; letter-spacing:.1em; color:#6E5B45; text-transform:uppercase;">Libro</a>
+      <a href="#sesiones" style="font-family:'Marcellus',serif; font-size:14px; letter-spacing:.08em; text-transform:uppercase; color:#FBF3E6; background:linear-gradient(180deg,#D97A3D,#B4532A); padding:11px 20px; border-radius:2px; box-shadow:0 8px 22px -8px rgba(180,83,42,.55);">Agenda una sesión</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="top" style="position:relative; min-height:100vh; display:grid; grid-template-columns:1.05fr .95fr; align-items:center; gap:min(6vw,70px); padding:150px 6vw 110px; background:linear-gradient(180deg,#F6EEDF,#EFE4D0);" class="two-col">
+    <div style="position:absolute; inset:0; background:radial-gradient(110% 80% at 30% 118%, rgba(210,115,58,.38) 0%, rgba(214,153,88,.14) 36%, rgba(242,233,216,0) 62%);"></div>
+    <div style="position:absolute; left:32%; bottom:-70px; width:min(60vw,720px); height:460px; transform:translateX(-50%); border-radius:50%; background:radial-gradient(closest-side, rgba(233,155,88,.45), rgba(210,115,58,.1) 55%, transparent 72%); filter:blur(34px); animation:emberPulse 6s ease-in-out infinite;"></div>
+
+    <div style="position:relative; animation:riseIn 1.1s ease both;">
+      <p class="eyebrow" style="margin-bottom:30px;">Sanador · Músico · Guía</p>
+      <h1 style="font-family:'Marcellus',serif; font-weight:400; font-size:clamp(44px,6.4vw,86px); line-height:1.03; color:#2A1B10; margin:0;">Descubre tu<br>yo mágico</h1>
+      <p class="body" style="max-width:520px; margin:32px 0 0; font-size:clamp(17px,1.5vw,20px); line-height:1.7;">Un viaje de sanación y autoconocimiento donde se encuentran el arte, la música y las tradiciones ancestrales. Veinte años acompañando a personas a encontrar su propio camino.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:18px; align-items:center; margin-top:42px;">
+        <a href="#curso" class="cta">Conoce el curso</a>
+        <a href="#sesiones" style="font-family:'Marcellus',serif; font-size:15px; letter-spacing:.06em; text-transform:uppercase; color:#5C4A38; border-bottom:1px solid rgba(92,74,56,.4); padding-bottom:3px;">Agenda una sesión</a>
+      </div>
+    </div>
+
+    <div style="position:relative;">
+      <div style="position:absolute; inset:-20px; background:radial-gradient(60% 60% at 40% 25%, rgba(210,115,58,.26), transparent 70%); filter:blur(26px);"></div>
+      <div style="position:relative; aspect-ratio:4/5; border:1px solid rgba(164,123,46,.4); border-radius:3px; overflow:hidden; box-shadow:0 50px 90px -46px rgba(74,48,22,.6);">
+        <img src="assets/carlos-del-rio.webp" alt="Carlos del Río en cuclillas sobre tierra seca, con poncho andino, entre árboles" style="width:100%; height:100%; object-fit:cover; object-position:52% 20%; display:block;">
+      </div>
+    </div>
+  </header>
+
+  <!-- MANIFIESTO -->
+  <section style="position:relative; background:#EADFCA; padding:110px 6vw; border-top:1px solid rgba(51,36,26,.07); text-align:center;">
+    <div style="max-width:860px; margin:0 auto;">
+      <h2 class="h2">Transforma tu vida con la sabiduría ancestral y la sanación holística</h2>
+      <p class="body" style="max-width:620px; margin:26px auto 0; font-size:18px;">Técnicas holísticas que conectan cuerpo, mente y espíritu para guiarte hacia el equilibrio y la armonía interior.</p>
+    </div>
+  </section>
+
+  <!-- QUIEN SOY -->
+  <section id="quien-soy" style="position:relative; background:#F2E9D8; padding:120px 6vw; border-top:1px solid rgba(51,36,26,.07);">
+    <div style="max-width:1180px; margin:0 auto;">
+      <div style="max-width:720px;">
+        <p class="eyebrow">Quién soy</p>
+        <h2 class="h2" style="margin:16px 0 28px;">Carlos del Río</h2>
+        <div class="body" style="font-size:18px;">
+          <p style="margin:0 0 20px;">Nací en Perú, entre montañas que enseñan antes de que uno sepa que está aprendiendo. Me he dedicado a la sanación durante los últimos veinte años, integrando distintas herramientas terapéuticas para ayudar a las personas a encontrar su propio camino de transformación.</p>
+          <p style="margin:0 0 20px;">Soy Ingeniero Comercial y Licenciado en Arte, pero mi verdadera pasión siempre ha sido la sanación. En 2007 entré al Amazonas y el aprendizaje cambió de forma — dejó de ser algo que se escucha y pasó a ser algo que se atraviesa. Después vinieron nueve años en México, en contacto con la tradición tzotzil y el rezo con el fuego. Más tarde la tradición Lakota, con su rigor y su silencio.</p>
+          <p style="margin:0;">Y siempre, atravesándolo todo, la música: los cantos que abren, los que sostienen, los que cierran.</p>
+        </div>
+      </div>
+
+      <!-- HERRAMIENTAS -->
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:26px; margin-top:70px;" class="albums">
+        <div style="background:#FBF5EA; border:1px solid rgba(51,36,26,.08); border-top:2px solid #C4632B; border-radius:3px; padding:38px 32px; box-shadow:0 20px 44px -34px rgba(74,48,22,.5);">
+          <span style="font-family:'Marcellus',serif; font-size:13px; letter-spacing:.28em; text-transform:uppercase; color:#A47B2E;">01</span>
+          <h3 style="font-family:'Marcellus',serif; font-weight:400; font-size:25px; margin:14px 0 12px; color:#2A1B10;">Tarot y Arquetipos</h3>
+          <p style="margin:0; font-size:16px; line-height:1.7; color:#6E5B45; font-weight:300;">Imágenes que ordenan lo interno. El tarot como mapa de los arquetipos que facilitan el entendimiento y la transformación.</p>
+        </div>
+        <div style="background:#FBF5EA; border:1px solid rgba(51,36,26,.08); border-top:2px solid #C4632B; border-radius:3px; padding:38px 32px; box-shadow:0 20px 44px -34px rgba(74,48,22,.5);">
+          <span style="font-family:'Marcellus',serif; font-size:13px; letter-spacing:.28em; text-transform:uppercase; color:#A47B2E;">02</span>
+          <h3 style="font-family:'Marcellus',serif; font-weight:400; font-size:25px; margin:14px 0 12px; color:#2A1B10;">Musicoterapia</h3>
+          <p style="margin:0; font-size:16px; line-height:1.7; color:#6E5B45; font-weight:300;">Ritmos y melodías que abren un puente hacia el corazón. El poder del sonido puesto a sanar y a equilibrar.</p>
+        </div>
+        <div style="background:#FBF5EA; border:1px solid rgba(51,36,26,.08); border-top:2px solid #C4632B; border-radius:3px; padding:38px 32px; box-shadow:0 20px 44px -34px rgba(74,48,22,.5);">
+          <span style="font-family:'Marcellus',serif; font-size:13px; letter-spacing:.28em; text-transform:uppercase; color:#A47B2E;">03</span>
+          <h3 style="font-family:'Marcellus',serif; font-weight:400; font-size:25px; margin:14px 0 12px; color:#2A1B10;">Medicina Indígena</h3>
+          <p style="margin:0; font-size:16px; line-height:1.7; color:#6E5B45; font-weight:300;">Veinte años de tradición viva — andina, amazónica, tzotzil, lakota. Una sabiduría ancestral aplicada a la práctica diaria.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EL CURSO -->
+  <section id="curso" style="position:relative; background:#EADFCA; padding:120px 6vw; border-top:1px solid rgba(51,36,26,.07); overflow:hidden;">
+    <div style="position:absolute; left:50%; top:-90px; width:min(70vw,780px); height:420px; transform:translateX(-50%); border-radius:50%; background:radial-gradient(closest-side, rgba(210,115,58,.28), transparent 70%); filter:blur(32px); animation:emberPulse 7s ease-in-out infinite;"></div>
+    <div style="position:relative; max-width:1180px; margin:0 auto; display:grid; grid-template-columns:1.1fr .9fr; gap:min(6vw,70px); align-items:center;" class="two-col">
+      <div>
+        <p class="eyebrow">El curso online</p>
+        <h2 class="h2" style="margin:16px 0 24px;">El Camino del Chamán</h2>
+        <p class="body" style="font-size:18px; margin:0 0 26px;">No es una lista de módulos. Es un sendero: cinco etapas, dieciocho fuegos, y un maestro que camina adelante. Se recorre a tu ritmo, y cada clase que terminas enciende el siguiente fuego del camino.</p>
+        <ul style="list-style:none; margin:0 0 34px; padding:0; display:flex; flex-direction:column; gap:13px;">
+          <li style="display:flex; gap:14px; align-items:flex-start; color:#5C4A38; font-size:17px; font-weight:300;"><span style="color:#C4632B; flex:none;">✦</span>Las 18 clases, con guías de acompañamiento y material</li>
+          <li style="display:flex; gap:14px; align-items:flex-start; color:#5C4A38; font-size:17px; font-weight:300;"><span style="color:#C4632B; flex:none;">✦</span>El Templo: las meditaciones guiadas, con modo práctica</li>
+          <li style="display:flex; gap:14px; align-items:flex-start; color:#5C4A38; font-size:17px; font-weight:300;"><span style="color:#C4632B; flex:none;">✦</span>Círculo de Palabra y Diario de Viaje</li>
+          <li style="display:flex; gap:14px; align-items:flex-start; color:#5C4A38; font-size:17px; font-weight:300;"><span style="color:#C4632B; flex:none;">✦</span>Las dos primeras clases son de muestra, sin costo</li>
+        </ul>
+        <a href="https://camino.carlosdelriohealer.com/" class="cta">Entrar al curso</a>
+      </div>
+
+      <!-- ETAPAS -->
+      <div style="background:#FBF5EA; border:1px solid rgba(164,123,46,.35); border-radius:4px; padding:40px 38px; box-shadow:0 40px 80px -50px rgba(74,48,22,.6);">
+        <p style="font-family:'Marcellus SC',serif; font-size:12px; letter-spacing:.22em; text-transform:uppercase; color:#A08A6E; margin:0 0 26px;">Cinco etapas, dieciocho fuegos</p>
+        <div style="display:flex; flex-direction:column; gap:20px;">
+          <div style="display:flex; align-items:baseline; gap:18px;"><span style="font-family:'Marcellus',serif; font-size:22px; color:#C4632B; min-width:36px;">I</span><div><p style="font-family:'Marcellus',serif; font-size:19px; color:#2A1B10; margin:0;">El Llamado</p><p style="margin:2px 0 0; font-size:15px; color:#8A7660; font-style:italic;">Lo que te trajo hasta acá</p></div></div>
+          <div style="display:flex; align-items:baseline; gap:18px;"><span style="font-family:'Marcellus',serif; font-size:22px; color:#C4632B; min-width:36px;">II</span><div><p style="font-family:'Marcellus',serif; font-size:19px; color:#2A1B10; margin:0;">El Espacio Sagrado</p><p style="margin:2px 0 0; font-size:15px; color:#8A7660; font-style:italic;">El ritual, la energía, las herramientas</p></div></div>
+          <div style="display:flex; align-items:baseline; gap:18px;"><span style="font-family:'Marcellus',serif; font-size:22px; color:#C4632B; min-width:36px;">III</span><div><p style="font-family:'Marcellus',serif; font-size:19px; color:#2A1B10; margin:0;">Los Cuatro Elementos</p><p style="margin:2px 0 0; font-size:15px; color:#8A7660; font-style:italic;">Tierra, agua, fuego y aire dentro de ti</p></div></div>
+          <div style="display:flex; align-items:baseline; gap:18px;"><span style="font-family:'Marcellus',serif; font-size:22px; color:#C4632B; min-width:36px;">IV</span><div><p style="font-family:'Marcellus',serif; font-size:19px; color:#2A1B10; margin:0;">Los Animales de Poder</p><p style="margin:2px 0 0; font-size:15px; color:#8A7660; font-style:italic;">Los aliados que caminan contigo</p></div></div>
+          <div style="display:flex; align-items:baseline; gap:18px;"><span style="font-family:'Marcellus',serif; font-size:22px; color:#A8501F; min-width:36px;">V</span><div><p style="font-family:'Marcellus',serif; font-size:19px; color:#2A1B10; margin:0;">Los Tres Mundos</p><p style="margin:2px 0 0; font-size:15px; color:#8A7660; font-style:italic;">Inferior, medio y superior</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MUSICA -->
+  <section id="musica" style="position:relative; background:#F2E9D8; padding:120px 6vw; border-top:1px solid rgba(51,36,26,.07);">
+    <div style="max-width:1180px; margin:0 auto;">
+      <div style="display:flex; flex-wrap:wrap; gap:26px; align-items:flex-end; justify-content:space-between; margin-bottom:54px;">
+        <div style="max-width:620px;">
+          <p class="eyebrow">Mi música</p>
+          <h2 class="h2" style="margin:16px 0 18px;">Nueve discos, un mismo canto</h2>
+          <p class="body" style="margin:0;">Los cantos que abren, los que sostienen y los que cierran. La música como medicina, disponible para escuchar cuando quieras.</p>
+        </div>
+        <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO0bHrKr" target="_blank" rel="noopener" class="cta cta-spotify">
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="#FBF3E6" style="flex:none;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36c-3.84-2.28-10.2-2.5-13.86-1.38-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.2-1.26 11.22-1.02 15.66 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.3z"/></svg>
+          Escuchar en Spotify
+        </a>
+      </div>
+
+      <div class="albums" style="display:grid; grid-template-columns:repeat(5,1fr); gap:26px 24px; align-items:stretch;">
+        <a class="album" href="https://open.spotify.com/album/2E1brBLUrCwHP7nWxQLJBJ" target="_blank" rel="noopener">
+          <div class="album-art"><img src="assets/albums/esencia.webp" alt="Carátula del disco Esencia, de Carlos del Río" loading="lazy" width="600" height="600"></div>
+          <div>
+            <p class="album-t">Esencia</p>
+            <p class="album-meta">Álbum · 2010</p>
+          </div>
+          <p class="album-l"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1AA34A" style="flex:none;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36c-3.84-2.28-10.2-2.5-13.86-1.38-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.2-1.26 11.22-1.02 15.66 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.3z"/></svg> Escuchar</p>
+        </a>
+        <a class="album" href="https://open.spotify.com/album/7gaDVbfRlVVXv4bNmqE99O" target="_blank" rel="noopener">
+          <div class="album-art"><img src="assets/albums/medicina.webp" alt="Carátula del disco Medicina de la Selva, de Carlos del Río" loading="lazy" width="600" height="600"></div>
+          <div>
+            <p class="album-t">Medicina de la Selva</p>
+            <p class="album-meta">Álbum · 2009</p>
+          </div>
+          <p class="album-l"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1AA34A" style="flex:none;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36c-3.84-2.28-10.2-2.5-13.86-1.38-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.2-1.26 11.22-1.02 15.66 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.3z"/></svg> Escuchar</p>
+        </a>
+        <a class="album" href="https://open.spotify.com/album/43IM3QpkfmFjVFy0ziTuPh" target="_blank" rel="noopener">
+          <div class="album-art"><img src="assets/albums/confluir.webp" alt="Carátula del disco Confluir, de Carlos del Río" loading="lazy" width="600" height="600"></div>
+          <div>
+            <p class="album-t">Confluir</p>
+            <p class="album-meta">Álbum · 2013 · con Esteban Valdivia</p>
+          </div>
+          <p class="album-l"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1AA34A" style="flex:none;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36c-3.84-2.28-10.2-2.5-13.86-1.38-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.2-1.26 11.22-1.02 15.66 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.3z"/></svg> Escuchar</p>
+        </a>
+        <a class="album" href="https://open.spotify.com/album/4PFznDKNLHTNnS1hoGrtJw" target="_blank" rel="noopener">
+          <div class="album-art"><img src="assets/albums/colibri.webp" alt="Carátula del disco Colibrí, de Carlos del Río" loading="lazy" width="600" height="600"></div>
+          <div>
+            <p class="album-t">Colibrí</p>
+            <p class="album-meta">Álbum · 2020</p>
+          </div>
+          <p class="album-l"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1AA34A" style="flex:none;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36c-3.84-2.28-10.2-2.5-13.86-1.38-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.2-1.26 11.22-1.02 15.66 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.3z"/></svg> Escuchar</p>
+        </a>
+        <a class="album" href="https://open.spotify.com/album/4PijYcHBl6zuKKtzGQx31e" target="_blank" rel="noopener">
+          <div class="album-art"><img src="assets/albums/healing.webp" alt="Carátula del disco Healing Songs, de Carlos del Río" loading="lazy" width="600" height="600"></div>
+          <div>
+            <p class="album-t">Healing Songs</p>
+            <p class="album-meta">EP · 2021</p>
+          </div>
+          <p class="album-l"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1AA34A" style="flex:none;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36c-3.84-2.28-10.2-2.5-13.86-1.38-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.2-1.26 11.22-1.02 15.66 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.3z"/></svg> Escuchar</p>
+        </a>
+        <a class="album" href="https://open.spotify.com/album/1Z4rVQy8QPH3o6esbgB4qZ" target="_blank" rel="noopener">
+          <div class="album-art"><img src="assets/albums/norte.webp" alt="Carátula del disco Norte, de Carlos del Río" loading="lazy" width="600" height="600"></div>
+          <div>
+            <p class="album-t">Norte</p>
+            <p class="album-meta">EP · 2022</p>
+          </div>
+          <p class="album-l"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1AA34A" style="flex:none;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36c-3.84-2.28-10.2-2.5-13.86-1.38-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.2-1.26 11.22-1.02 15.66 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.3z"/></svg> Escuchar</p>
+        </a>
+        <a class="album" href="https://open.spotify.com/album/6kBykKTvmpAm8T2ot9BFXy" target="_blank" rel="noopener">
+          <div class="album-art"><img src="assets/albums/guacamaya.webp" alt="Carátula del disco Guacamaya, de Carlos del Río" loading="lazy" width="600" height="600"></div>
+          <div>
+            <p class="album-t">Guacamaya</p>
+            <p class="album-meta">EP · 2023</p>
+          </div>
+          <p class="album-l"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1AA34A" style="flex:none;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36c-3.84-2.28-10.2-2.5-13.86-1.38-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.2-1.26 11.22-1.02 15.66 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.3z"/></svg> Escuchar</p>
+        </a>
+        <a class="album" href="https://open.spotify.com/album/6HVhaU925HSKHq2FujkSad" target="_blank" rel="noopener">
+          <div class="album-art"><img src="assets/albums/spirit.webp" alt="Carátula del disco Spirit, de Carlos del Río" loading="lazy" width="600" height="600"></div>
+          <div>
+            <p class="album-t">Spirit</p>
+            <p class="album-meta">EP · 2023</p>
+          </div>
+          <p class="album-l"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1AA34A" style="flex:none;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36c-3.84-2.28-10.2-2.5-13.86-1.38-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.2-1.26 11.22-1.02 15.66 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.3z"/></svg> Escuchar</p>
+        </a>
+        <a class="album" href="https://open.spotify.com/album/0nYXU8TixJ40RbIxjd6GhY" target="_blank" rel="noopener">
+          <div class="album-art"><img src="assets/albums/pasajero.webp" alt="Carátula del disco Pasajero, de Carlos del Río" loading="lazy" width="600" height="600"></div>
+          <div>
+            <p class="album-t">Pasajero</p>
+            <p class="album-meta">EP · 2023</p>
+          </div>
+          <p class="album-l"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1AA34A" style="flex:none;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36c-3.84-2.28-10.2-2.5-13.86-1.38-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.2-1.26 11.22-1.02 15.66 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.3z"/></svg> Escuchar</p>
+        </a>
+        <a class="album" href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO0bHrKr" target="_blank" rel="noopener">
+          <div class="album-art" style="border-style:dashed; border-color:rgba(164,123,46,.55); background:#F6EDDC; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; text-align:center; padding:24px;">
+            <span style="font-family:'Marcellus',serif; font-size:32px; color:#A47B2E; line-height:1;">♪</span>
+            <p style="font-family:'Marcellus',serif; font-size:17px; color:#6E5B45; margin:0; line-height:1.35;">La playlist<br>del camino</p>
+          </div>
+          <div>
+            <p class="album-t">Música Medicina</p>
+            <p class="album-meta">Playlist · selección de Carlos</p>
+          </div>
+          <p class="album-l"><svg width="13" height="13" viewBox="0 0 24 24" fill="#1AA34A" style="flex:none;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36c-3.84-2.28-10.2-2.5-13.86-1.38-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.2-1.26 11.22-1.02 15.66 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.3z"/></svg> Escuchar</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+<!-- PODCAST -->
+  <section id="podcast" style="position:relative; background:#F2E9D8; padding:110px 6vw; border-top:1px solid rgba(51,36,26,.07);">
+    <div style="max-width:1180px; margin:0 auto; display:grid; grid-template-columns:1.1fr .9fr; gap:min(6vw,64px); align-items:center;" class="two-col">
+      <div>
+        <p class="eyebrow">El podcast</p>
+        <h2 class="h2" style="margin:16px 0 24px;">Dos Espíritus</h2>
+        <p class="body" style="font-size:18px; margin:0 0 22px;">Un chamán y su aprendiz conversando. Con Andrés Bustamante recorremos el cruce entre el mundo espiritual y la vida moderna: el chamanismo, la conexión con la naturaleza, la tecnología, y las enseñanzas ancestrales que se transmiten de generación en generación.</p>
+        <p class="body" style="margin:0 0 32px;">Para quien busca entenderse mejor a sí mismo y al mundo alrededor.</p>
+        <a href="https://open.spotify.com/show/1QPdtizp61tOsPRKJBSADo" target="_blank" rel="noopener" class="cta cta-spotify">
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="#FBF3E6" style="flex:none;"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36c-3.84-2.28-10.2-2.5-13.86-1.38-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.2-1.26 11.22-1.02 15.66 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.66-1.56.3z"/></svg>
+          Escuchar el podcast
+        </a>
+      </div>
+      <div style="background:#FBF5EA; border:1px solid rgba(164,123,46,.35); border-radius:4px; padding:40px 36px; box-shadow:0 30px 66px -46px rgba(74,48,22,.55);">
+        <p style="font-family:'Marcellus SC',serif; font-size:12px; letter-spacing:.22em; text-transform:uppercase; color:#A08A6E; margin:0 0 24px;">Dos voces</p>
+        <div style="display:flex; flex-direction:column; gap:22px;">
+          <div style="display:flex; align-items:baseline; gap:16px;">
+            <span style="font-family:'Marcellus',serif; font-size:13px; letter-spacing:.2em; color:#C4632B; min-width:26px;">01</span>
+            <div>
+              <p style="font-family:'Marcellus',serif; font-size:20px; color:#2A1B10; margin:0;">Carlos del Río</p>
+              <p style="margin:3px 0 0; font-size:15px; color:#6E5B45; font-style:italic;">El chamán</p>
+            </div>
+          </div>
+          <div style="display:flex; align-items:baseline; gap:16px;">
+            <span style="font-family:'Marcellus',serif; font-size:13px; letter-spacing:.2em; color:#C4632B; min-width:26px;">02</span>
+            <div>
+              <p style="font-family:'Marcellus',serif; font-size:20px; color:#2A1B10; margin:0;">Andrés Bustamante</p>
+              <p style="margin:3px 0 0; font-size:15px; color:#6E5B45; font-style:italic;">El aprendiz</p>
+            </div>
+          </div>
+        </div>
+        <p style="margin:30px 0 0; padding-top:24px; border-top:1px solid rgba(51,36,26,.12); font-size:16px; line-height:1.7; color:#6E5B45; font-weight:300;">Espiritualidad, chamanismo, naturaleza y tecnología — episodio a episodio.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BANDA FOTOGRÁFICA -->
+  <div style="position:relative; height:min(60vh,540px); overflow:hidden; border-top:1px solid rgba(51,36,26,.07);">
+    <img src="assets/carlos-bosque.webp" alt="Carlos del Río sentado de espaldas sobre la tierra, mirando el bosque" loading="lazy" style="width:100%; height:100%; object-fit:cover; object-position:54% 50%; display:block; filter:sepia(.44) saturate(1.15) contrast(1.03);">
+    <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(242,233,216,.22) 0%, rgba(210,115,58,.12) 52%, rgba(234,223,202,.94) 100%);"></div>
+  </div>
+
+  <!-- QUOTE -->
+  <section style="position:relative; background:#EADFCA; padding:76px 6vw 110px; text-align:center;">
+    <div style="max-width:860px; margin:0 auto;">
+      <span style="font-family:'Marcellus',serif; font-size:60px; color:#C4632B; line-height:1; display:block;">&ldquo;</span>
+      <p style="font-family:'Marcellus',serif; font-weight:400; font-size:clamp(28px,3.8vw,46px); line-height:1.32; color:#2A1B10; margin:8px 0 26px;">El círculo de los chamanes se completará.</p>
+      <p style="font-family:'Marcellus SC',serif; font-size:12px; letter-spacing:.24em; text-transform:uppercase; color:#8A7660; margin:0;">Carlos del Río · Los Rostros del Infinito</p>
+    </div>
+  </section>
+
+  <!-- LIBRO -->
+  <section id="libro" style="position:relative; background:#F2E9D8; padding:120px 6vw; border-top:1px solid rgba(51,36,26,.07);">
+    <div style="max-width:1180px; margin:0 auto; display:grid; grid-template-columns:.9fr 1.1fr; gap:min(6vw,70px); align-items:center;" class="two-col">
+      <div style="position:relative;">
+        <div style="position:absolute; inset:-16px; background:radial-gradient(60% 60% at 40% 30%, rgba(210,115,58,.24), transparent 70%); filter:blur(24px);"></div>
+        <div style="position:relative; aspect-ratio:415/641; border:1px solid rgba(164,123,46,.45); border-radius:3px; overflow:hidden; box-shadow:0 44px 84px -46px rgba(74,48,22,.65);">
+          <img src="assets/rostros-del-infinito.webp" alt="Portada del libro Los Rostros del Infinito, de Carlos del Río: ilustración de rostros y figuras mesoamericanas en colores cálidos" loading="lazy" width="415" height="641" style="width:100%; height:100%; object-fit:cover; display:block;">
+        </div>
+      </div>
+      <div>
+        <p class="eyebrow">Mi libro</p>
+        <h2 class="h2" style="margin:16px 0 24px;">Los Rostros del Infinito</h2>
+        <p class="body" style="font-size:18px; margin:0 0 28px;">Una exploración profunda de la espiritualidad y el autoconocimiento. Este libro te invita a emprender un viaje hacia tu propio ser, descubriendo las múltiples facetas del infinito dentro de ti.</p>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:34px;">
+          <div><p style="font-family:'Marcellus',serif; font-size:17px; color:#A8501F; margin:0 0 4px;">Sanación y autoconocimiento</p><p style="margin:0; font-size:15.5px; line-height:1.65; color:#6E5B45; font-weight:300;">Tarot, musicoterapia y medicina indígena.</p></div>
+          <div><p style="font-family:'Marcellus',serif; font-size:17px; color:#A8501F; margin:0 0 4px;">Exploración espiritual</p><p style="margin:0; font-size:15.5px; line-height:1.65; color:#6E5B45; font-weight:300;">Cómo conectar con tu esencia y tu propósito.</p></div>
+          <div><p style="font-family:'Marcellus',serif; font-size:17px; color:#A8501F; margin:0 0 4px;">Herramientas prácticas</p><p style="margin:0; font-size:15.5px; line-height:1.65; color:#6E5B45; font-weight:300;">Ejercicios y meditaciones para la vida diaria.</p></div>
+          <div><p style="font-family:'Marcellus',serif; font-size:17px; color:#A8501F; margin:0 0 4px;">La naturaleza</p><p style="margin:0; font-size:15.5px; line-height:1.65; color:#6E5B45; font-weight:300;">La tierra como fuente de sanación.</p></div>
+        </div>
+        <a href="https://wordpress-1088143-4675072.cloudwaysapps.com/step/rostros-infinito-landing/" class="cta">Comprar el libro</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SESIONES -->
+  <section id="sesiones" style="position:relative; background:#EADFCA; padding:120px 6vw; border-top:1px solid rgba(51,36,26,.07); overflow:hidden;">
+    <div style="position:absolute; left:50%; top:-100px; width:min(70vw,760px); height:420px; transform:translateX(-50%); border-radius:50%; background:radial-gradient(closest-side, rgba(210,115,58,.26), transparent 70%); filter:blur(32px);"></div>
+    <div style="position:relative; max-width:1180px; margin:0 auto; display:grid; grid-template-columns:1.05fr .95fr; gap:min(6vw,64px); align-items:start;" class="two-col">
+      <div>
+        <p class="eyebrow">Sesiones</p>
+        <h2 class="h2" style="margin:16px 0 24px;">Agenda una sesión conmigo</h2>
+        <p class="body" style="font-size:18px; margin:0 0 22px;">Cada sesión es una co-creación. A través de la apertura de oráculos — el Espejo Cósmico, el tarot mítico y el Oráculo de la Unidad — exploramos tus procesos internos y encontramos herramientas prácticas para tu crecimiento.</p>
+        <ul style="list-style:none; margin:0 0 30px; padding:0; display:flex; flex-direction:column; gap:12px;">
+          <li style="display:flex; gap:14px; align-items:flex-start; color:#5C4A38; font-size:16.5px; font-weight:300;"><span style="color:#C4632B; flex:none;">✦</span>Lectura del tarot mítico y del Oráculo de la Unidad</li>
+          <li style="display:flex; gap:14px; align-items:flex-start; color:#5C4A38; font-size:16.5px; font-weight:300;"><span style="color:#C4632B; flex:none;">✦</span>Exploración profunda de tus procesos internos</li>
+          <li style="display:flex; gap:14px; align-items:flex-start; color:#5C4A38; font-size:16.5px; font-weight:300;"><span style="color:#C4632B; flex:none;">✦</span>Herramientas prácticas para atraer abundancia y claridad</li>
+          <li style="display:flex; gap:14px; align-items:flex-start; color:#5C4A38; font-size:16.5px; font-weight:300;"><span style="color:#C4632B; flex:none;">✦</span>Tareas y lecturas para seguir avanzando</li>
+        </ul>
+        <div style="display:flex; gap:40px; padding-top:24px; border-top:1px solid rgba(51,36,26,.12);">
+          <div><p style="font-family:'Marcellus SC',serif; font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:#A08A6E; margin:0 0 6px;">Duración</p><p style="font-family:'Marcellus',serif; font-size:20px; color:#2A1B10; margin:0;">1 hora y media</p></div>
+          <div><p style="font-family:'Marcellus SC',serif; font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:#A08A6E; margin:0 0 6px;">Modalidad</p><p style="font-family:'Marcellus',serif; font-size:20px; color:#2A1B10; margin:0;">Online</p></div>
+        </div>
+      </div>
+
+      <form id="form-sesion" style="background:#FBF5EA; border:1px solid rgba(164,123,46,.35); border-radius:4px; padding:38px 34px; box-shadow:0 40px 80px -50px rgba(74,48,22,.6); display:flex; flex-direction:column; gap:14px;">
+        <p style="font-family:'Marcellus',serif; font-size:24px; color:#2A1B10; margin:0 0 6px;">Solicita tu sesión</p>
+        <input type="text" name="nombre" placeholder="Nombre" required style="font-family:'Spectral',serif; font-size:16px; padding:15px 18px; background:#F7EFE0; border:1px solid rgba(51,36,26,.16); border-radius:2px; color:#33241A; outline:none;">
+        <input type="email" name="email" placeholder="Email" required style="font-family:'Spectral',serif; font-size:16px; padding:15px 18px; background:#F7EFE0; border:1px solid rgba(51,36,26,.16); border-radius:2px; color:#33241A; outline:none;">
+        <input type="text" name="pais" placeholder="País" style="font-family:'Spectral',serif; font-size:16px; padding:15px 18px; background:#F7EFE0; border:1px solid rgba(51,36,26,.16); border-radius:2px; color:#33241A; outline:none;">
+        <textarea name="mensaje" rows="4" placeholder="Cuéntame más de ti" style="font-family:'Spectral',serif; font-size:16px; padding:15px 18px; background:#F7EFE0; border:1px solid rgba(51,36,26,.16); border-radius:2px; color:#33241A; outline:none; resize:vertical;"></textarea>
+        <button type="submit" class="cta" style="width:100%; margin-top:6px;">Enviar solicitud</button>
+        <p id="form-ok" hidden style="margin:4px 0 0; font-size:15px; color:#1AA34A; font-style:italic;">Gracias. Carlos te escribirá pronto.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="background:#E4D7BF; padding:56px 6vw; border-top:1px solid rgba(51,36,26,.08);">
+    <div style="max-width:1180px; margin:0 auto; display:flex; flex-wrap:wrap; gap:26px; align-items:center; justify-content:space-between;">
+      <span style="font-family:'Marcellus SC',serif; font-size:15px; letter-spacing:.12em; text-transform:uppercase; color:#6E5B45;">Carlos del Río · Sanación Chamánica</span>
+      <div style="display:flex; flex-wrap:wrap; gap:26px; align-items:center;">
+        <a href="https://camino.carlosdelriohealer.com/" style="font-family:'Marcellus',serif; font-size:13px; letter-spacing:.1em; text-transform:uppercase; color:#6E5B45;">El Curso</a>
+        <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO0bHrKr" target="_blank" rel="noopener" style="font-family:'Marcellus',serif; font-size:13px; letter-spacing:.1em; text-transform:uppercase; color:#6E5B45;">Spotify</a>
+        <a href="#podcast" style="font-family:'Marcellus',serif; font-size:13px; letter-spacing:.1em; text-transform:uppercase; color:#6E5B45;">Podcast</a>
+        <a href="#libro" style="font-family:'Marcellus',serif; font-size:13px; letter-spacing:.1em; text-transform:uppercase; color:#6E5B45;">Libro</a>
+        <a href="#sesiones" style="font-family:'Marcellus',serif; font-size:13px; letter-spacing:.1em; text-transform:uppercase; color:#6E5B45;">Sesiones</a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+<script>
+  // TODO: conectar a un servicio de formularios (Formspree, Vercel Function, etc.)
+  document.getElementById('form-sesion').addEventListener('submit', function (e) {
+    e.preventDefault();
+    document.getElementById('form-ok').hidden = false;
+    e.target.querySelector('button[type=submit]').textContent = 'Solicitud enviada';
+  });
+</script>
+</body>
+</html>
